@@ -1,0 +1,33 @@
+#Install a piece of software
+winget install notepad++
+
+#Search for software on a PC
+winget search vlc
+
+#Info about app
+winget show xxxxx
+
+#See all software installed on PC
+winget list
+
+#Export all software from a PC
+winget export -o "c:\xxxxx.txt"
+
+#Import all software to a PC
+winget import "path.txt"
+
+
+
+#Update software
+#Get current version
+winget list microsoft.visualstudiocode
+
+#Update all software
+winget update --all --silent --force
+
+#Install Winget Gui
+winget install wingetui
+
+
+
+!Socrat3s!
